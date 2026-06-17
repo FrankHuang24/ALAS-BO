@@ -1,0 +1,26 @@
+# Core dependencies for ALAS Bayesian optimization experiments.
+# The repository vendors the BoTorch source used in the paper.
+torch==2.5.1
+gpytorch==1.13
+linear-operator==0.5.3
+pyro-ppl==1.9.1
+numpy==1.26.4
+scipy==1.12.0
+plotly==5.24.1
+multipledispatch==1.0.0
+pyre-extensions==0.0.32
+typing-inspect==0.9.0
+jaxtyping==0.2.19
+typeguard==4.4.1
+tqdm==4.67.1
+
+# Optional figure-regeneration dependencies.
+# matplotlib==3.9.2
+# seaborn==0.13.2
+
+# Optional benchmark dependencies. Uncomment only if running the corresponding tasks.
+# scikit-learn==1.6.0        # HPO benchmarks
+# xgboost==2.1.4             # XGBoost HPO benchmarks
+# lightgbm==4.6.0            # LightGBM HPO benchmark
+# Box2D==2.3.10              # robot pushing benchmark
+# pygame==2.6.1              # robot pushing benchmark
